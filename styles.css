@@ -454,6 +454,34 @@ dd {
   color: var(--cyan);
 }
 
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(98, 228, 255, 0.08);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.profile-links a:hover,
+.profile-links a:focus-visible {
+  border-color: var(--line-strong);
+  background: rgba(98, 228, 255, 0.16);
+  outline: none;
+}
+
 .section-heading {
   max-width: 760px;
   margin-bottom: 28px;
