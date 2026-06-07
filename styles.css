@@ -461,7 +461,11 @@ dd {
   margin-top: 16px;
 }
 
-.profile-links a {
+.profile-link-button,
+.profile-link-button:link,
+.profile-link-button:visited {
+  appearance: none;
+  -webkit-appearance: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -473,12 +477,16 @@ dd {
   color: var(--text);
   font-size: 13px;
   font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
 }
 
-.profile-links a:hover,
-.profile-links a:focus-visible {
+.profile-link-button:hover,
+.profile-link-button:focus-visible {
   border-color: var(--line-strong);
   background: rgba(98, 228, 255, 0.16);
+  color: var(--text);
+  text-decoration: none;
   outline: none;
 }
 
