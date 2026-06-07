@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Chao Fan Lab | Clemson University</title>
+  <link rel="preconnect" href="https://upload.wikimedia.org">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Dr. Chao Fan Lab home">
+      <span class="brand-mark">
+        <img src="assets/lab-logo.png" alt="" aria-hidden="true">
+      </span>
+      <span>
+        <strong>Chao Fan Lab</strong>
+        <small>Clemson University</small>
+      </span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#pi">PI</a>
+      <a href="#research">Research</a>
+      <a href="#people">People</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Clemson University Research Lab</p>
+        <h1>Intelligent systems for resilient, connected communities.</h1>
+        <p class="hero-text">
+          We build Agentic AI solutions in cyber-physical systems to enhance our
+          understanding of risks and navigate future technological advances.
+        </p>
+        <div class="hero-actions" aria-label="Key page links">
+          <a class="primary-action" href="#research">Explore Research</a>
+          <a class="secondary-action" href="#people">Meet the Team</a>
+        </div>
+      </div>
+
+      <aside class="mission-panel" aria-label="Lab identity">
+        <div class="orbital-logo" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <strong>
+            <img src="assets/lab-logo.png" alt="Chao Fan Lab logo">
+          </strong>
+        </div>
+        <p class="panel-label">Lab Slogan</p>
+        <h2>Model the Risk. Engineer Resilience. Serve Society.</h2>
+        <dl>
+          <div>
+            <dt>Focus</dt>
+            <dd>Human-Centered Agentic AI</dd>
+          </div>
+          <div>
+            <dt>Mode</dt>
+            <dd>Highly Interdisciplinary</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="intro-grid" aria-label="Lab overview">
+      <article>
+        <span class="metric">01</span>
+        <h2>AI-Native Research</h2>
+        <p>Foundation models, ambient sensors, and human subject experiments are used as core instruments for discovery.</p>
+      </article>
+      <article>
+        <span class="metric">02</span>
+        <h2>Infrastructure Impact</h2>
+        <p>Projects translate models into tools for transportation, smart cities, natural disasters, and public systems.</p>
+      </article>
+      <article>
+        <span class="metric">03</span>
+        <h2>Human-Centered Systems</h2>
+        <p>We study how people, technologies, and built environments interact under uncertainty and change.</p>
+      </article>
+    </section>
+
+    <section id="pi" class="section two-column">
+      <div>
+        <p class="eyebrow">Principal Investigator</p>
+        <h2>Dr. Chao Fan</h2>
+        <p>
+          Dr. Chao Fan leads an interdisciplinary research group at Clemson University
+          focused on AI agents and cyber-physical systems. The lab develops data-driven
+          and human-centered methods for high-impact application domains including
+          emergency management, transportation, urban systems, and risk analysis.
+        </p>
+        <p>
+          Our lab is always recruiting prospective and self-motivated students to work
+          with us. We welcome students from a wide range of backgrounds, including
+          computer science, civil engineering, GIS, economics, remote sensing, electrical
+          engineering, industrial engineering, operations research, information systems,
+          control, and automation.
+        </p>
+      </div>
+      <div class="profile-card">
+        <img class="profile-photo" src="assets/chao-fan-pi.jpg" alt="Dr. Chao Fan">
+        <div>
+          <h3>Chao Fan, Ph.D.</h3>
+          <p>Professor / Principal Investigator</p>
+          <a href="mailto:cfan@g.clemson.edu">cfan@g.clemson.edu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research Directions</p>
+        <h2>Where computation meets the physical world.</h2>
+      </div>
+      <div class="research-grid">
+        <article>
+          <span class="icon-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M6 17h12"></path>
+              <path d="M8 17v-5a4 4 0 0 1 8 0v5"></path>
+              <path d="M9 8 7.5 5.5"></path>
+              <path d="M15 8l1.5-2.5"></path>
+              <path d="M12 4V2.5"></path>
+              <path d="M4 20h16"></path>
+              <path d="M10 13h4"></path>
+            </svg>
+          </span>
+          <h3>AI for Emergency Operations</h3>
+          <p>Agentic AI models and solutions for situational awareness, emergency dispatch, resource allocation, planning, response, and recovery.</p>
+        </article>
+        <article>
+          <span class="icon-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M5 18h14"></path>
+              <path d="M7 18l1.6-5h6.8l1.6 5"></path>
+              <path d="M8.8 13 10 9h4l1.2 4"></path>
+              <circle cx="8" cy="18" r="1.8"></circle>
+              <circle cx="16" cy="18" r="1.8"></circle>
+              <path d="M4 6c3-2.2 5.2 2.2 8 0s5 2.2 8 0"></path>
+              <circle cx="4" cy="6" r="1.2"></circle>
+              <circle cx="12" cy="6" r="1.2"></circle>
+              <circle cx="20" cy="6" r="1.2"></circle>
+            </svg>
+          </span>
+          <h3>Transportation Digital Twins</h3>
+          <p>Digital twin methods for modeling mobility systems, road networks, autonomous vehicles, safety, accessibility, and emerging transportation technologies.</p>
+        </article>
+        <article>
+          <span class="icon-node" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <rect x="7" y="7" width="10" height="10" rx="2"></rect>
+              <path d="M10 3v4"></path>
+              <path d="M14 3v4"></path>
+              <path d="M10 17v4"></path>
+              <path d="M14 17v4"></path>
+              <path d="M3 10h4"></path>
+              <path d="M3 14h4"></path>
+              <path d="M17 10h4"></path>
+              <path d="M17 14h4"></path>
+              <path d="M10 12.5 11.7 14l3-4"></path>
+            </svg>
+          </span>
+          <h3>Cyber-Physical Systems</h3>
+          <p>Architecture, design, sensing, and security for smart connected communities and societal-scale cyber-physical systems.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="people" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Current Students</p>
+        <h2>Researchers building the next layer of intelligent infrastructure.</h2>
+      </div>
+      <div class="people-grid">
+        <article>
+          <img class="avatar avatar-photo" src="assets/junkang-xu.jpeg" alt="Junkang Xu">
+          <h3>Junkang Xu</h3>
+          <p><strong>Ph.D. Student</strong></p>
+          <p>B.S. Zhejiang University</p>
+          <p>Generative Agents to Simulate Human Decision-Making</p>
+        </article>
+        <article>
+          <img class="avatar avatar-photo" src="assets/abhinav-shrestha.jpeg" alt="Abhinav Shrestha">
+          <h3>Abhinav Shrestha</h3>
+          <p><strong>Ph.D. Student</strong></p>
+          <p>B.S. (Rank 1st) Tribhuvan University, Pulchowk Campus</p>
+          <p>Agentic AI Solutions for High-Stakes Operations</p>
+        </article>
+        <article>
+          <img class="avatar avatar-photo" src="assets/rui-shao.png" alt="Rui Shao">
+          <h3>Rui Shao</h3>
+          <p><strong>Ph.D. Student</strong></p>
+          <p>M.S. University College London</p>
+          <p>Human-centered AI Technologies and Theories</p>
+        </article>
+        <article class="recruiting-card">
+          <div class="avatar">+</div>
+          <h3>Future Students</h3>
+          <p><strong>We are recruiting!</strong></p>
+          <p>Prospective Ph.D., student and research interns (remote) interested in AI agents and cyber-physical systems are welcome to connect.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sponsors" class="section sponsors">
+      <div class="section-heading">
+        <p class="eyebrow">Sponsors & Partners</p>
+        <h2>Supported by agencies and institutions advancing public-interest research.</h2>
+      </div>
+      <div class="sponsor-strip">
+        <a href="https://www.nsf.gov/" aria-label="National Science Foundation">
+          <img class="sponsor-logo sponsor-image" src="assets/nsf-logo.svg" alt="NSF logo">
+          <span>National Science Foundation</span>
+        </a>
+        <a href="https://www.transportation.gov/" aria-label="United States Department of Transportation">
+          <img class="sponsor-logo sponsor-image" src="assets/usdot-seal.svg" alt="USDOT seal">
+          <span>U.S. Department of Transportation</span>
+        </a>
+        <a href="https://www.clemson.edu/" aria-label="Clemson University">
+          <span class="sponsor-logo clemson-wordmark" aria-hidden="true">Clemson</span>
+          <span>Clemson University</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div>
+      <h2>Connect with the lab</h2>
+      <p>College of Engineering, Computing and Applied Sciences, Clemson University</p>
+    </div>
+    <address>
+      <a href="mailto:cfan@g.clemson.edu">cfan@g.clemson.edu</a>
+      <a href="https://www.clemson.edu/">clemson.edu</a>
+      <span>Office: Clemson University Campus</span>
+    </address>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
